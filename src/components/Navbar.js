@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react"
+import { Link } from "gatsby"
+import { FaRProject } from "react-icons/fa"
 
-export default function Navbar() {
-    return (
-        <div>
-            <h1>I'm NavBar</h1>
-        </div>
-    )
+const Navbar = () => {
+  return (
+    <div>
+      <h1>i'm navbar</h1>
+    </div>
+  )
 }
+
+export default Navbar
